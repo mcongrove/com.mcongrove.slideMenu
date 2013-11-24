@@ -101,10 +101,10 @@ image      | `String` | Icon path        |
 
 Methods
 -------
-Function    | Parameters  | Description                               |
-------------|-------------|-------------------------------------------|
-clear       |             | Removes all nodes                         |
-setIndex    | `index`     | The index of the item to mark as selected |
+Function | Parameters | Description                               |
+---------|------------|-------------------------------------------|
+clear    |            | Removes all nodes                         |
+setIndex | `index`    | The index of the item to mark as selected |
 
 Changelog
 ---------
