@@ -62,11 +62,23 @@ Example Usage
 			duration: 250,
 			curve: Ti.UI.ANIMATION_CURVE_EASE_IN_OUT
 		});
+		
+		$.SlideMenu.Wrapper.animate({
+			left: "0dp",
+			duration: 250,
+			curve: Ti.UI.ANIMATION_CURVE_EASE_IN_OUT
+		});
 	}
 	
 	function closeMenu() {
 		$.AppWrapper.animate({
 			left: "0dp",
+			duration: 250,
+			curve: Ti.UI.ANIMATION_CURVE_EASE_IN_OUT
+		});
+		
+		$.SlideMenu.Wrapper.animate({
+			left: "-200dp",
 			duration: 250,
 			curve: Ti.UI.ANIMATION_CURVE_EASE_IN_OUT
 		});
